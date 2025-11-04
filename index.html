@@ -1,9 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
+@app.route('/')
+def home():
+    return """
+    <html>
+    <head>
+    <meta charset="utf-8">
     <title>ch</title>
-</head>
-<body>
-    <h1>ch</h1>
-</body>
-</html>
+    </head>
+    <body style="text-align: center; font-family: Tahoma; background: #1111; padding: 50px;">
+    <p>?</p>
+    </body>
+    </html>
+    """
